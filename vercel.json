@@ -1,9 +1,14 @@
 {
-  "routes": [
+  "functions": {
+    "api/*.js": {
+      "memory": 128,
+      "maxDuration": 10
+    }
+  },
+  "redirects": [
     {
-      "src": "/",
-      "methods": ["GET"],
-      "dest": "/api/index.js"
+      "source": "/",
+      "destination": "https://github.com/samba9274/hackerrank-readme-stats"
     }
   ]
 }
