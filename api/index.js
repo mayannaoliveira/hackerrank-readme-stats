@@ -1,4 +1,4 @@
-const badges = require("../src/generators/hackerrank");
+const badges = require("../src/hackerrank");
 
 module.exports = (req, res) => {
   const { username } = req.query;
